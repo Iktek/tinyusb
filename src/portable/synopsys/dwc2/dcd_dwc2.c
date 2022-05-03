@@ -865,8 +865,6 @@ void dcd_edpt_close (uint8_t rhport, uint8_t ep_addr)
     } else {
     	_allocated_fifo_words_tx -= fifo_size;
     }
-
-    _allocated_fifo_words_tx -= fifo_size;
   }
   else
   {
